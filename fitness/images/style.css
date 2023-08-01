@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
+}
+:root{
+    --main-color:#f8b281;
+    --secondary-color:#1b1b1b;
+}
+h2{
+    font-size: 2.5rem;
+    line-height: 126%;
+    padding: 1rem 0rem;
+}
+h3{
+    font-size:1.25rem;
+    line-height: 125%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    margin-left: 0.5rem;
+}
+.logo img{
+    width: 2rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav svg{
+    cursor: pointer;
+}
+.front-page{
+    padding: 5%;
+    min-height: 100vh;
+    color: #e7e7e7;
+}
+.selling-point{
+    margin-top: 25vh;
+    text-align: center;
+}
+.selling-point h3{
+    margin-top:20px;
+    margin-bottom:25p x;
+}
+.ctas button{
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.cta-main{
+    background: var(--main-color);
+    color: var(--secondary-color);
+    margin-left: 10px; 
+    border: none;
+}
+.cta-sec{
+    background: var(--secondary-color);
+    color:#e7e7e7;
+}
+.ctas{
+    margin-top: 20px;
+}
+.hero{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.classes{
+    color: var(--secondary-color);
+    text-align: center;
+}
+.videos video{
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.meditation,.yoga,.pilates{
+    position: relative;
+}
+.videos h3{
+    position: absolute;
+    color: var(--main-color);
+    text-shadow: 0px 2px 12px black;
+    bottom: 10%;
+    transform: translateX(50%);
+    left: 50%;
+    transform: translate(-50%,-10%);
+    font-size: 2rem;
+}
+.about{
+    color: var(--secondary-color);
+}
+.about p{
+    line-height: 150%;
+    font-size: 1.2rem;
+}
+.about img{
+    width: 100%;
+    margin-top: 2rem;
+}
